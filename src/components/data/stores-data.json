@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"name": "Seven Eleven",
+		"desc": "Learn HTML For Beginners With Free Book ",
+		"url": "https://previews.123rf.com/images/boonchuay/boonchuay1806/boonchuay180600134/103502791-ripe-yellow-mango-fruit-with-leaves-isolated-on-white-background.jpg",
+		"items": ["Mango", "Food"],
+		"pos": { "lat": 41.439322, "lng": -81.634369 }
+	},
+	{
+		"id": 2,
+		"name": "Red Apple",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Fruit", "Food"],
+		"pos": { "lat": 41.489322, "lng": -81.654369 }
+	},
+	{
+		"id": 3,
+		"name": "Milk",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Drink", "Food", "Dairy"],
+		"pos": { "lat": 41.499322, "lng": -81.594369 }
+	},
+	{
+		"id": 4,
+		"name": "Bottled Water",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Drink"],
+		"pos": { "lat": 41.199322, "lng": -81.664369 }
+	},
+	{
+		"id": 5,
+		"name": "Tissue",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Household"],
+		"pos": { "lat": 41.399322, "lng": -81.594369 }
+	},
+	{
+		"id": 6,
+		"name": "Frozen Pizza",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Frozen", "Food", "Prepeared"],
+		"pos": { "lat": 41.399322, "lng": -81.594369 }
+	},
+	{
+		"id": 7,
+		"name": "Lettuce",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Vegetable", "Food"],
+		"pos": { "lat": 41.419322, "lng": -81.44369 }
+	},
+	{
+		"id": 8,
+		"name": "Pork",
+		"desc": "Learn Javascript For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071709/usersam2007170900005/85531778-one-ripe-green-apple-fruit-with-green-leaf-isolated-on-white-background-granny-smith-apple-with-clip.jpg",
+		"items": ["Meat", "Food"],
+		"pos": { "lat": 41.299322, "lng": -81.394369 }
+	},
+	{
+		"id": 9,
+		"name": "Chicken Wings",
+		"desc": "Learn CSS For Beginners With Free Book",
+		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
+		"items": ["Meat", "Food"],
+		"pos": { "lat": 41.449322, "lng": -81.494369 }
+	}
+]

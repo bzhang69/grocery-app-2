@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Food",
+		"active": false
+	},
+	{
+		"id": 2,
+		"name": "Drink",
+		"active": false
+	},
+	{
+		"id": 3,
+		"name": "Fruit",
+		"active": false
+	},
+	{
+		"id": 4,
+		"name": "Vegetable",
+		"active": false
+	},
+	{
+		"id": 5,
+		"name": "Meat",
+		"active": false
+	},
+	{
+		"id": 6,
+		"name": "Household",
+		"active": false
+	}
+]
