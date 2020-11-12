@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"name": "Mango",
-		"desc": "Learn HTML For Beginners With Free Book ",
+		"desc": "Fresh and sweet Mango from south America.",
 		"url": "https://previews.123rf.com/images/boonchuay/boonchuay1806/boonchuay180600134/103502791-ripe-yellow-mango-fruit-with-leaves-isolated-on-white-background.jpg",
 		"cate": ["Fruit", "Food"]
 	},
@@ -61,5 +61,12 @@
 		"desc": "Learn CSS For Beginners With Free Book",
 		"url": "https://previews.123rf.com/images/usersam2007/usersam20071802/usersam2007180200020/96654339-single-ripe-red-apple-fruit-with-green-leaf-isolated-on-white-background.jpg",
 		"cate": ["Meat", "Food"]
+	},
+	{
+		"id": 10,
+		"name": "Pizza",
+		"desc": "Frozen pizza",
+		"url": "https://previews.123rf.com/images/ryzhkov86/ryzhkov861904/ryzhkov86190400418/119979874-pizza-margarita-or-margherita-with-cherry-tomatoes-mozzarella-cheese-pesto-and-tomato-sauce-isolated.jpg",
+		"cate": ["Food"]
 	}
 ]

@@ -1,32 +1,26 @@
 [
 	{
 		"id": 1,
-		"name": "Food",
-		"active": false
+		"name": "Food"
 	},
 	{
 		"id": 2,
-		"name": "Drink",
-		"active": false
+		"name": "Drink"
 	},
 	{
 		"id": 3,
-		"name": "Fruit",
-		"active": false
+		"name": "Fruit"
 	},
 	{
 		"id": 4,
-		"name": "Vegetable",
-		"active": false
+		"name": "Vegetable"
 	},
 	{
 		"id": 5,
-		"name": "Meat",
-		"active": false
+		"name": "Meat"
 	},
 	{
 		"id": 6,
-		"name": "Household",
-		"active": false
+		"name": "Household"
 	}
 ]
