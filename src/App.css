@@ -11,8 +11,28 @@
 	width: 253px;
 }
 
+.item-display {
+	max-height: 600px;
+}
+
 .carousel-item {
 	height: 26em;
 	background: #777;
 	position: relative;
+}
+
+.chatbot {
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	bottom: 0;
+	right: 20px;
+	overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.img-fluid {
+	max-height: 300px;
+}
+
+.carousel-caption {
+	color: black !important;
 }

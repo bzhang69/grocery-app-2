@@ -1,65 +1,148 @@
 [
 	{
 		"id": 1,
-		"name": "Seven Eleven",
-		"desc": "2200",
-		"items": ["Mango", "Red Apple"],
-		"pos": { "lat": 41.539322, "lng": -81.534369 }
+		"name": "Dave's Markets Slavic Village",
+		"desc": "1, Center Court, Cleveland, OH 44115",
+		"items": ["Mango", "Red Apple", "Milk", "Still Water", "Tissues"],
+		"pos": { "lat": 41.439322, "lng": -81.634369 }
 	},
 	{
 		"id": 2,
-		"name": "Local Market",
-		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Fruit", "Food"],
-		"pos": { "lat": 41.489322, "lng": -81.654369 }
+		"name": "Uni-Mart",
+		"desc": "342 Euclid Ave, Cleveland, OH 44115",
+		"items": ["Tissues", "Frozen Pizza", "Lettuce"],
+		"pos": { "lat": 41.449156, "lng": -81.637584 }
 	},
 	{
 		"id": 3,
-		"name": "Milk",
-		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Drink", "Food", "Dairy"],
-		"pos": { "lat": 41.499322, "lng": -81.594369 }
+		"name": "Discount Mart",
+		"desc": "1846 Euclid Ave, Cleveland, OH 44115",
+		"items": ["Pork Loin", "Butter", "Lettuce"],
+		"pos": { "lat": 41.455718, "lng": -81.634151 }
 	},
 	{
 		"id": 4,
-		"name": "Bottled Water",
-		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Drink"],
-		"pos": { "lat": 41.199322, "lng": -81.664369 }
+		"name": "Convenient Food Mart",
+		"desc": "1648 St Clair Ave NE, Cleveland, OH 44114",
+		"items": ["Butter", "White Bread", "Apple Juice", "Meat Ball"],
+		"pos": { "lat": 41.455332, "lng": -81.641875 }
 	},
 	{
 		"id": 5,
-		"name": "Tissue",
+		"name": "2403 St Clair Ave NE # 2, Cleveland, OH 44114",
 		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Household"],
-		"pos": { "lat": 41.399322, "lng": -81.594369 }
+		"items": [
+			"Apple Juice",
+			"Meat Ball",
+			"Hot Chocolate",
+			"Frozen Chicken",
+			"Chocolate Milk"
+		],
+		"pos": { "lat": 41.463179, "lng": -81.650115 }
 	},
 	{
 		"id": 6,
-		"name": "Frozen Pizza",
-		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Frozen", "Food", "Prepeared"],
-		"pos": { "lat": 41.399322, "lng": -81.594369 }
+		"name": "Quick Shop",
+		"desc": "4758 Ridge Rd, Brooklyn, OH 44144",
+		"items": ["Hot Chocolate", "Frozen Chicken", "Chocolate Milk"],
+		"pos": { "lat": 41.434357, "lng": -81.689254 }
 	},
 	{
 		"id": 7,
-		"name": "Lettuce",
-		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Vegetable", "Food"],
-		"pos": { "lat": 41.419322, "lng": -81.44369 }
+		"name": "7-Eleven",
+		"desc": "19219 Detroit Rd, Rocky River, OH 44116",
+		"items": ["Vegetable", "Food", "Toilet Cleaner", "Candles", "Teabags"],
+		"pos": { "lat": 41.419169, "lng": -81.69303 }
 	},
 	{
 		"id": 8,
-		"name": "Pork",
-		"desc": "Learn Javascript For Beginners With Free Book",
-		"items": ["Meat", "Food"],
-		"pos": { "lat": 41.299322, "lng": -81.394369 }
+		"name": "O'Neil Foods",
+		"desc": "411 Park Ave Ste 135, Beachwood, OH 44122",
+		"items": ["Toilet Cleaner", "Candles", "Teabags", "Apple Pies", "Mushroom"],
+		"pos": { "lat": 41.420714, "lng": -81.675693 }
 	},
 	{
 		"id": 9,
-		"name": "Chicken Wings",
-		"desc": "Learn CSS For Beginners With Free Book",
-		"items": ["Meat", "Food"],
-		"pos": { "lat": 41.449322, "lng": -81.494369 }
+		"name": "Warner Food Mart",
+		"desc": "3431 Tuttle Rd, Shaker Heights, OH 44122",
+		"items": ["Apple Pies", "Mushroom", "Pear", "Mango"],
+		"pos": { "lat": 41.433843, "lng": -81.632262 }
+	},
+	{
+		"id": 10,
+		"name": "Shop Express",
+		"desc": "2118 S Taylor Rd, Cleveland Heights, OH 44118",
+		"items": ["Mushroom", "Pear", "Mango", "Red Apple", "Milk"],
+		"pos": { "lat": 41.452397, "lng": -81.530857 }
+	},
+	{
+		"id": 11,
+		"name": "Circle K",
+		"desc": "96 Rothrock Rd, Akron, OH 44321",
+		"items": ["Red Apple", "Milk", "Still Water", "Tissues"],
+		"pos": { "lat": 41.423571, "lng": -81.496868 }
+	},
+	{
+		"id": 12,
+		"name": "Super One Market",
+		"desc": "5005 Euclid Ave, Cleveland, OH 44103",
+		"items": ["Still Water", "Tissues", "Frozen Pizza", "Lettuce"],
+		"pos": { "lat": 41.436956, "lng": -81.560039 }
+	},
+	{
+		"id": 13,
+		"name": "Marshalls",
+		"desc": "2570 Superior Ave, Cleveland, OH 44114",
+		"items": ["Tissues", "Frozen Pizza", "Lettuce", "Pork Loin"],
+		"pos": { "lat": 41.445706, "lng": -81.495323 }
+	},
+	{
+		"id": 14,
+		"name": "Marc's Stores",
+		"desc": "1400 E 9th St, Cleveland, OH 44114",
+		"items": ["Lettuce", "Pork Loin", "Butter", "White Bread"],
+		"pos": { "lat": 41.384218, "lng": -81.737105 }
+	},
+	{
+		"id": 15,
+		"name": "Walmart Supercenter",
+		"desc": "1925 St Clair Ave NE STE 100, Cleveland, OH 44114",
+		"items": ["Pork Loin", "Butter", "White Bread"],
+		"pos": { "lat": 41.382511, "lng": -81.744305 }
+	},
+	{
+		"id": 16,
+		"name": "Kohl's",
+		"desc": "2999 Payne Ave, Cleveland, OH 44114",
+		"items": ["White Bread", "Apple Juice", "Meat Ball"],
+		"pos": { "lat": 41.377858, "lng": -81.737359 }
+	},
+	{
+		"id": 17,
+		"name": "Target",
+		"desc": "528 Euclid Ave, Cleveland, OH 44114",
+		"items": ["Apple Juice", "Meat Ball", "Hot Chocolate"],
+		"pos": { "lat": 41.378035, "lng": -81.736334 }
+	},
+	{
+		"id": 18,
+		"name": "Parma Quick Mart",
+		"desc": "3829 Hamilton Ave, Cleveland, OH 44114",
+		"items": ["Lettuce", "Pork", "Frozen Pizza", "Hot Chocolate"],
+		"pos": { "lat": 41.409914, "lng": -81.738937 }
+	},
+	{
+		"id": 19,
+		"name": "Walgreens",
+		"desc": "1701 E 12th St, Cleveland, OH 44114",
+		"items": ["Still Water", "Tissues", "Frozen Pizza", "Lettuce"],
+		"pos": { "lat": 41.414124, "lng": -81.733963 }
+	},
+	{
+		"id": 20,
+		"name": "Big Creek Convenience Store",
+		"desc": "230 W Huron Rd, Cleveland, OH 44113",
+		"items": ["Mango", "Red Apple", "Milk", "Still Water"],
+		"pos": { "lat": 41.417954, "lng": -81.7555989 }
 	}
 ]

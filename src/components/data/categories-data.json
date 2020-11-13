@@ -1,11 +1,11 @@
 [
 	{
 		"id": 1,
-		"name": "Food"
+		"name": "Meat"
 	},
 	{
 		"id": 2,
-		"name": "Drink"
+		"name": "Vegetable"
 	},
 	{
 		"id": 3,
@@ -13,14 +13,38 @@
 	},
 	{
 		"id": 4,
-		"name": "Vegetable"
+		"name": "Bakery"
 	},
 	{
 		"id": 5,
-		"name": "Meat"
+		"name": "Drink"
 	},
 	{
 		"id": 6,
+		"name": "Dairy"
+	},
+	{
+		"id": 7,
+		"name": "Seafood"
+	},
+	{
+		"id": 8,
 		"name": "Household"
+	},
+	{
+		"id": 9,
+		"name": "Frozen"
+	},
+	{
+		"id": 10,
+		"name": "Snacks"
+	},
+	{
+		"id": 11,
+		"name": "Fresh"
+	},
+	{
+		"id": 12,
+		"name": "Prepared"
 	}
 ]

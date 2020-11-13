@@ -19,13 +19,12 @@ class MapComponent extends Component {
 		this.setState({
 			selectedStore: store,
 		});
-		console.log(this.state.selectedStore.pos);
 	};
 	render() {
 		const { storeData } = this.props;
 
 		return (
-			<LoadScript googleMapsApiKey="AIzaSyAkf5VW9uhw1UoTZcxTRvUwF1COqQtTvzs">
+			<LoadScript googleMapsApiKey="AIzaSyCn_Pku6Q-eOBWdkM4TrSt8QxTkeyM_d10">
 				<GoogleMap
 					mapContainerStyle={{
 						width: "400px",

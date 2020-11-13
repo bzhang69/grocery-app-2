@@ -10,7 +10,7 @@ class ItemDisplay extends Component {
 		const { showModal, onCloseItem, modalItem } = this.props;
 
 		return (
-			<Modal size="lg" show={showModal}>
+			<Modal contentClassName="item-display" size="lg" show={showModal}>
 				<Modal.Header closeButton onClick={onCloseItem}>
 					<Modal.Title>{modalItem.name}</Modal.Title>
 				</Modal.Header>
@@ -22,7 +22,11 @@ class ItemDisplay extends Component {
 							<p style={{ margin: 20 }}>{modalItem.desc}</p>
 						</Col>
 						<Col lg={7} className="ml-auto">
-							<MapComponent storeData={StoreData} />
+							<MapComponent
+								storeData={StoreData.filter((store) => {
+									return store.items.includes(modalItem.name);
+								})}
+							/>
 						</Col>
 					</Row>
 				</Modal.Body>

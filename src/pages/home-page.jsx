@@ -18,53 +18,48 @@ const HomePage = () => {
 							This is an App that helps you to find any grocery items and stores
 							in your neighborhood!
 						</p>
-						<Link as={Link} to="/app">
-							<p>
-								<a className="btn btn-primary my-2">Start Exploring!</a>
-							</p>
-						</Link>
+						<p>
+							<Link className="btn btn-primary my-2" to="/app">
+								Start Exploring!
+							</Link>
+						</p>
 					</div>
 				</section>
 				<div className="container" style={{ marginBottom: "50px" }}>
 					<Carousel>
-						<Carousel.Item>
+						<Carousel.Item interval={1500}>
 							<Image
 								className="d-block w-100"
-								src="https://picsum.photos/200/300"
+								src="https://previews.123rf.com/images/weedezign/weedezign1508/weedezign150800148/43872267-blurred-background-people-in-coffee-shop-blur-background-with-bokeh-light-with-vintage-filter-.jpg"
 								alt="First slide"
 							/>
 							<Carousel.Caption>
-								<h3>First slide label</h3>
-								<p>
-									Nulla vitae elit libero, a pharetra augue mollis interdum.
-								</p>
+								<h1>Find the groceries you need.</h1>
+								<p>Fruits, Vegetables, Meat, anything you can think of!</p>
 							</Carousel.Caption>
 						</Carousel.Item>
-						<Carousel.Item>
+						<Carousel.Item interval={1500}>
 							<Image
 								className="d-block w-100"
-								src="https://picsum.photos/200/300"
+								src="https://previews.123rf.com/images/anaumenko/anaumenko1901/anaumenko190100220/116033735-grocery-shopping-concept-foods-with-shopping-bag.jpg"
 								alt="Third slide"
 							/>
 
 							<Carousel.Caption>
-								<h3>Second slide label</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<h1>Find where they are.</h1>
+								<p>Get the store location for your item!</p>
 							</Carousel.Caption>
 						</Carousel.Item>
-						<Carousel.Item>
+						<Carousel.Item interval={1500}>
 							<Image
 								className="d-block w-100"
-								src="https://picsum.photos/200/300"
+								src="https://previews.123rf.com/images/rh2010/rh20101812/rh2010181200922/114133789-courier-service-worker-delivering-fresh-food-to-a-happy-woman-client-signing-some-documents-on-the-k.jpg"
 								alt="Third slide"
 							/>
 
 							<Carousel.Caption>
-								<h3>Third slide label</h3>
-								<p>
-									Praesent commodo cursus magna, vel scelerisque nisl
-									consectetur.
-								</p>
+								<h1>Plan your shopping ahead.</h1>
+								<p>Create your shopping list right now!</p>
 							</Carousel.Caption>
 						</Carousel.Item>
 					</Carousel>
