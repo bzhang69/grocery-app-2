@@ -4,6 +4,7 @@ import NavBar from "../components/navbar";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
 
+//This is the home page. React bootstrap Carousel is used.
 const HomePage = () => {
 	return (
 		<React.Fragment>

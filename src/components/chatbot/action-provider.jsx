@@ -6,6 +6,7 @@ class ActionProvider {
 		this.createClientMessage = createClientMessage;
 	}
 
+	//Update bot messages
 	updateChatbotState(message) {
 		this.setState((prevState) => ({
 			...prevState,

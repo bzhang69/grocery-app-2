@@ -9,6 +9,7 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 import { FaRobot } from "react-icons/fa";
 import { Button } from "react-bootstrap";
 
+//This is the application page. Filters and item list passes data to this parent component.
 class AppPage extends Component {
 	state = {
 		filterText: "",
@@ -18,14 +19,17 @@ class AppPage extends Component {
 		showChatbot: false,
 	};
 
+	//Update the selected filter indexes.
 	filterUpdate = (value) => {
 		this.setState({
 			filterText: value,
 		});
 	};
 
+	//Set selected filter categories and its button element to active state.
 	handleCateActivation = (value) => {
 		let filterCates = this.state.filterCates;
+		//Filter out the unselected categories.
 		if (filterCates.includes(value)) {
 			filterCates = filterCates.filter((c) => c !== value);
 			this.setState({
@@ -39,6 +43,7 @@ class AppPage extends Component {
 		}
 	};
 
+	//Show/hide clicked item modal.
 	handleItemOpen = (item) => {
 		this.setState({
 			showModal: !this.state.showModal,
@@ -46,6 +51,7 @@ class AppPage extends Component {
 		});
 	};
 
+	//Show/hide chatbot component.
 	showChatbot = () => {
 		this.setState({
 			showChatbot: !this.state.showChatbot,

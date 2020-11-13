@@ -4,7 +4,6 @@ import {
 	BrowserRouter as Router,
 	Route,
 	Switch,
-	Link,
 	Redirect,
 } from "react-router-dom";
 import HomePage from "./pages/home-page";
@@ -14,6 +13,7 @@ import AppPage from "./pages/app-page";
 class App extends Component {
 	render() {
 		return (
+			//Routers to Home page and Application page. Other urls will be redirected to 404 not found page.
 			<Router>
 				<Switch>
 					<Route exact path="/home" component={HomePage} />

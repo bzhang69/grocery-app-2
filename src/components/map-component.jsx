@@ -15,6 +15,7 @@ class MapComponent extends Component {
 		selectedStore: null,
 	};
 
+	//Save the store information which is clicked on the map.
 	setSelectedStore = (store) => {
 		this.setState({
 			selectedStore: store,
@@ -22,7 +23,7 @@ class MapComponent extends Component {
 	};
 	render() {
 		const { storeData } = this.props;
-
+		//googleMapsApiKey is generated through google map api service with my personal account.
 		return (
 			<LoadScript googleMapsApiKey="AIzaSyCn_Pku6Q-eOBWdkM4TrSt8QxTkeyM_d10">
 				<GoogleMap

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+//This component haven't been completed yet.
 class FilterPrice extends Component {
 	state = {};
 	render() {

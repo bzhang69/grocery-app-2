@@ -2,6 +2,7 @@ import React from "react";
 
 import "./start.css";
 
+//Display buttons and keywords for users to choose. Pass actions accordingly to action provider and make responses.
 const Start = (props) => {
 	const options = [
 		{ text: "Products", handler: props.actionProvider.handleProducts, id: 1 },

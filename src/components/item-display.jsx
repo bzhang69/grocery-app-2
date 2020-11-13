@@ -5,6 +5,7 @@ import Image from "react-bootstrap/Image";
 import MapComponent from "./map-component";
 import StoreData from "./data/stores-data.json";
 
+//Item modal that shows after clicking on an item.
 class ItemDisplay extends Component {
 	render() {
 		const { showModal, onCloseItem, modalItem } = this.props;
@@ -24,6 +25,7 @@ class ItemDisplay extends Component {
 						<Col lg={7} className="ml-auto">
 							<MapComponent
 								storeData={StoreData.filter((store) => {
+									//Only shows stores, which has this item, on the map.
 									return store.items.includes(modalItem.name);
 								})}
 							/>

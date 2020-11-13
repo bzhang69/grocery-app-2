@@ -9,14 +9,17 @@ class FilterCategories extends Component {
 			<section className="card">
 				<header className="card-header">Category</header>
 				<ul className="list-group list-group-flush">
-					{Categories.map((cate) => (
-						<FilterCategory
-							key={cate.id}
-							name={cate.name}
-							onCateActivation={onCateActivation}
-							filterCates={filterCates}
-						/>
-					))}
+					{
+						//For each category in data, render a category button.
+						Categories.map((cate) => (
+							<FilterCategory
+								key={cate.id}
+								name={cate.name}
+								onCateActivation={onCateActivation}
+								filterCates={filterCates}
+							/>
+						))
+					}
 				</ul>
 			</section>
 		);

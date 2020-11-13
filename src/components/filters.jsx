@@ -9,6 +9,7 @@ class Filters extends Component {
 	}
 
 	render() {
+		//Gathers filter data and pass to the parent app component.
 		const { onCateActivation, filterCates } = this.props;
 		return (
 			<div className="col-md-3">
